@@ -4,7 +4,7 @@ import axios from "axios";
 import "./Signup.css";
 import { Link } from "react-router-dom";
 import Input from "../components/Input";
-import { Button } from "../components/Button";
+import { Button } from "../components/Button2";
 import { useForm } from "react-hook-form";
 import Api from "../components/config/Api";
 
@@ -28,16 +28,16 @@ const Signup = () => {
 
   return (
     <div className="Signup">
-      <h1> SIGN UP</h1>
+      <h1> Sign Up</h1>
       <Link className="Link" to="/">
-        <h2 className="sign"> Login</h2>
+        <h2 className="sign">Back to Login</h2>
       </Link>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex">
           <div className="in">
             <Input
-              place="First name"
-              register={register("firstName", {
+              place="First Name"
+              register={register("first Name", {
                 required: true,
               })}
             />

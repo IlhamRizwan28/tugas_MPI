@@ -1,4 +1,10 @@
 .salam {
+  font-size: 12px;
+  font-family: sans-serif;
   width: 500px;
   text-align: center;
+}
+
+.salam h2 {
+  font-size: 25px;
 }

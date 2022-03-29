@@ -27,9 +27,9 @@ const Login = () => {
   };
   return (
     <div className="Login">
-      <h1> LOGIN </h1>
+      <h1>Login</h1>
       <Link className="link" to="/Signup">
-        <h2 className="sign">Sign up?</h2>
+        <h3 className="sign">Sign up?</h3>
       </Link>
       <form onSubmit={handleSubmit(onSubmit)}>
         <Input
